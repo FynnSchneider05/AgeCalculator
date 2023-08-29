@@ -24,12 +24,11 @@ Your users should be able to:
 
 **1) Home Page where a user can enter the age as day, month and year and after a click on the button in the middle it will generate the current age of the user**
 
-![Img Desktop version](./images/ScreenshotDesktop.png)
-
+<img src="./images/ScreenshotDesktop.png" width="128"/>
 
 **2) This one is the Mobile version design**
 
-<img src="./images/ScreenshotMobile.png" width="60"/>
+<img src="./images/ScreenshotMobile.png" width="128"/>
 
 **Preview Site**
 
