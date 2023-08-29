@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 94%);
+
+}
+
+main{
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+}
+
+
+#background {
+    position: relative;
+    width: 50%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border-bottom-right-radius: 140px;
+    box-shadow: 0px 0px 10px 0px hsl(0, 1%, 75%);
+    padding: 20px;
+}
+
+#container1 {
+    display: flex;
+}
+
+label,
+input {
+    display: block;
+    margin-left: 2%;
+}
+
+label {
+    color: hsl(0, 1%, 44%);
+    font-size: 12px;
+}
+
+input {
+    margin-top: 0.5rem;
+    width: 70%;
+    height: 3rem;
+    border: 1px solid hsl(0, 1%, 44%);
+    border-radius: 5px;
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+small{
+    display: none;
+    font-size: 0.6em; 
+    color: red;
+    margin-left: 4%;
+}
+
+.linebreak{
+    display: none;
+}
+
+#yearInput {
+    min-width: 3em;
+}
+
+#dayInput,
+#monthInput {
+    min-width: 2em
+}
+
+
+#container2 {
+    display: flex;
+    margin-top: 0;
+    margin-left: 3%;
+}
+
+#container2 h2 {
+    font-size: 6rem;
+    margin: 0;
+    margin-right: 0;
+}
+
+#resultNum h2 {
+    color: hsl(259, 100%, 65%);
+    margin-right: 0.5em;
+}
+
+
+
+
+
+#iconSpan {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+
+}
+
+hr {
+    position: absolute;
+    margin-left: 5%;
+    width: 90%;
+    margin-bottom: 0;
+    top: 10px;
+
+}
+
+#circle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: blueviolet;
+    margin-left: 40%;
+    border-radius: 50px;
+    top: -15px;
+
+
+}
+
+#icon {
+    background-color: blueviolet;
+    position: relative;
+    filter: invert(100%);
+    width: 80%;
+
+
+}
+
+
+button {
+    position: absolute;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.attribution{
+    width: 80%;
+    font-size: 0.8rem;
+}
+
+@media(max-width: 1200px) {
+    #container2 h2 {
+        font-size: 5rem;
+    }
+
+    #circle {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media(max-width: 1050px) {
+    #container2 h2 {
+        font-size: 4rem;
+    }
+
+    #circle {
+        top: -10px;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+}
+
+@media(max-width: 500px) {
+    #ResultNum h2 {
+        margin-right: 10px;
+    }
+
+    #container2 h2 {
+        font-size: 3rem;
+    }
+
+    #circle {
+        top: 0;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    #iconSpan {
+        margin-bottom: 20%;
+    }
+
+    input {
+        padding-left: 1px;
+    }
+
+    .linebreak{
+        display: inline;
+    }
+}
+
+
+@media(max-width: 350px) {
+    #ResultNum h2 {
+        margin-right: 3px;
+    }
+
+    #container2 h2 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-aspect-ratio: 1/1) {
+    #background {
+        width: 90%;
+    }
+}

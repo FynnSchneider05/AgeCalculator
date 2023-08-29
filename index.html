@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+  <div id="background">
+
+    <div id="container1">
+
+      <div id="day">
+        <label for="dayInput">DAY</label>
+        <input type="number" id="dayInput" placeholder="DD">
+        <small id="errorDay"></small>
+      </div>
+
+      <div id="month">
+        <label for="monthInput">MONTH</label>
+        <input type="number" id="monthInput" placeholder="MM">
+        <small id="errorMonth"></small>
+
+      </div>
+
+      <div id="year">
+        <label for="yearInput">YEAR</label>
+        <input type="number" id="yearInput" placeholder="YYYY">
+        <small id="errorYear"></small>
+
+      </div>
+
+    </div>
+
+
+    <span id="iconSpan">
+      <hr>
+      <span id="circle">
+        <button id="submit" onclick="submit()"></button>
+        <img src="./images/icon-arrow.svg" alt=""> </span>
+    </span>
+
+
+    <div id="container2">
+
+      <div id="resultNum">
+        <h2 id="resultYear">--</h2>
+        <h2 id="resultMonth">--</h2>
+        <h2 id="resultDay">--</h2>
+      </div>
+
+      <div id="resultLabels">
+        <h2>years</h2>
+        <h2>months</h2>
+        <h2>days</h2>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Fynn Schneider</a>.
+  </div>
+</footer>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
