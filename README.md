@@ -29,7 +29,7 @@ Your users should be able to:
 
 **2) This one is the Mobile version design**
 
-![Img Mobile version](./images/ScreenshotMobile.png)
+<img src="./images/ScreenshotMobile.png" width="60"/>
 
 **Preview Site**
 
