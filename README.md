@@ -22,14 +22,17 @@ Your users should be able to:
 
 **ScreenShot of my project/design**
 
-**1) Home Page where user can enter the age as per day,month and year and after click on the button on the right side and it will generate the current age of the user**
+**1) Home Page where a user can enter the age as day, month and year and after a click on the button in the middle it will generate the current age of the user**
 
-![Screenshot (196)](https://github.com/rohitdubey1352/Age-calculator-app/assets/56528673/c8f01efd-9225-47e3-8996-ac1b1c1cb31e)
+![Img Desktop version](./images/ScreenshotDesktop.png)
 
 
-**2) This one is Mobile version design**
+**2) This one is the Mobile version design**
 
-![Web capture_29-8-2023_234752_127 0 0 1](https://github.com/rohitdubey1352/Age-calculator-app/assets/56528673/c506da17-fe51-4836-b9b7-c6847282a9d3)
+![Img Mobile version](./images/ScreenshotMobile.png)
 
+**Preview Site**
+
+https://fynnschneider05.github.io/AgeCalculator/
 
 **Have fun building!** 🚀
