@@ -52,13 +52,13 @@ function submit(){
     
     if(ageMonth < 0){
         ageYear--;
-        ageMonth = 12 - ageMonth
+        ageMonth = 12 + ageMonth 
     }
 
     if(ageMonth == 0 && ageDay < 0){
-        year--;
-        ageMonth = 12;
-        ageDay = DAYS_PER_MONTH[ageMonth] - ageDay;
+        ageYear--;
+        ageMonth = 11;
+        ageDay = DAYS_PER_MONTH[today.getMonth()] + ageDay;
     }
 
 
@@ -70,7 +70,7 @@ function submit(){
 
 
 function checkInputs(day, month, year, today){
-
+   
     let valid = true;
 
     if(day == ''){
@@ -92,9 +92,9 @@ function checkInputs(day, month, year, today){
         DAY_LABEL.style.color = 'red';
     }
 
-    else if(day > DAYS_PER_MONTH[month] || day < 1){
+    else if(day > DAYS_PER_MONTH[Number(month)] || day < 1){
         valid = false;
-
+        console.log('falsch')
         DAY_INPUT.style.border = '1px solid red';
         ERROR_DAY.innerHTML = "Enter valid <br class='linebreak'> Day";
         ERROR_DAY.style.display = 'block';
