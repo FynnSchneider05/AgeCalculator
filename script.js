@@ -78,7 +78,6 @@ function checkInputs(day, month, year, today){
 
         DAY_INPUT.style.border = '1px solid red';
         ERROR_DAY.innerHTML = "This field <br class='linebreak'>  is required";
-        console.log(ERROR_DAY.innerText)
         ERROR_DAY.style.display = 'block';
         DAY_LABEL.style.color = 'red';
     }
@@ -94,7 +93,6 @@ function checkInputs(day, month, year, today){
 
     else if(day > DAYS_PER_MONTH[Number(month)] || day < 1){
         valid = false;
-        console.log('falsch')
         DAY_INPUT.style.border = '1px solid red';
         ERROR_DAY.innerHTML = "Enter valid <br class='linebreak'> Day";
         ERROR_DAY.style.display = 'block';
